@@ -1,0 +1,168 @@
+
+{
+    "books": [
+        {
+            "id" : "100e0bec-397f-45a0-b14d-b1c134f18e6c",
+            "name" : "Sherlock Holms",
+            "author" : "Artur Conan Doyle",
+            "image" : "https://uzbeklar.biz/uploads/posts/2022-04/1651083426-1266669871.jpg"
+        }
+        ,
+        {
+            "id" : "a33236b7-22e3-4828-9b9b-8659201ed7e7",
+            "name": "Alvido ey Gulsari",
+            "author": "Chingiz Aytmatov",
+            "image": "https://assets.asaxiy.uz/product/items/desktop/df877f3865752637daa540ea9cbc474f2022073115221448765PgZwID0L8a.jpg"
+        }
+        ,
+        {
+            "id" : "f2148368-30a5-4a2e-b255-e9d59f3c7dc8",
+            "name": "Martin Eden",
+            "author": "Jack London",
+            "image": "https://www.readandcobooks.co.uk/wp-content/uploads/martin-eden-london-9781528712187-cover.jpg"
+        }
+        ,
+        {
+            "id" : "baa85a9b-2d9f-4888-ad13-be0ec617c45c",
+            "name": "O'nta negr bolasi",
+            "author": "Agata Kristi",
+            "image": "https://yuz.uz/file/news/9460ece58e93fb8202a9eeb06899b646.jpg"
+        }
+        ,
+        {
+            "id" : "43630c9d-5b7e-47d5-adee-f7481bb9690c",
+            "name": "Otalar va bolalar",
+            "author": "Ivan Turgenev",
+            "image": "https://kitoblardunyosi.uz/image/cache/catalog/boshqa-kitoblar/otalar_va_bolalar-500x750.jpg"
+        }
+        ,
+        {
+            "id" : "e0b34ad6-0da3-4f3a-b3f2-50aeddf47063",
+            "name": "Tirik qolish buyurilgan",
+            "author": "Yulian Semyonov",
+            "image": "https://kitobxon.com/img_knigi/s1565.jpg"
+        }
+        ,
+        {
+            "id" : "5e9123da-38db-431b-9861-f5ddab21d27f",
+            "name": "Hamlet",
+            "author": "Wilyam Shekspir",
+            "image": "https://g.christianbook.com/g/slideshow/7/72789/main/72789_1_ftc_dp.jpg"
+        }
+        ,
+        {
+            "id" : "40e58747-30a7-458b-a84a-59d846e67e22",
+            "name": "Jinoyat va jazo",
+            "author": "Fyodor Mihaylovich Dostoyevski",
+            "image": "https://kitobxon.com/img_knigi/1487.jpg"
+        }
+        ,
+        {
+            "id" : "e171e297-4007-481d-9bd2-abf1fbda3c97",
+            "name": "Graf Monte-Kristo",
+            "author": "Alexandre Dumas",
+            "image": "https://kitobxon.com/img_knigi/1551.jpg"
+        }
+        ,
+        {
+            "id" : "95f93651-0b00-4d0d-8319-524b20f6fe18",
+            "name": "Amerika fojiasi",
+            "author": "Teodor Drayzer",
+            "image": "https://kitobxon.com/img_knigi/1478.jpg"
+        }
+    ]
+}
+
+{
+    "details": [
+        {
+                      "name": "Sherlock Holms",
+                      "author": "Artur Conan Doyle",
+                      "biography": "Artur Konan Doyl (inglizcha: Arthur Conan Doyle; 22-may 1859-yil — 7-iyul 1930-yil) — shotlandiyalik fizik va yozuvchi. Artur Konan Doyl Sherlok Xolms haqida yozgan detektiv asarlari bilan butun dunyoga mashhurdir. Xolms haqidagi hikoyalarini millionlab kitobxonlar hozirga qadar sevib oʻqiydi.",
+                      "overview": "Sherlock Holmes — Arthur Conan Doyle hikoya va qissalarining bosh qahramoni, izquvar. Holmes izquvar maʼnosida turdosh otga aylangan. Angliya poytaxti Londondagi Beyker strit ko‘chasida 221-B raqamli uy bor. Sherlok Xolms shu uyda „yashagan“. Aslida, Konan Doyl davrida Beyker strit ko‘chasida bunday raqamli uy mavjud bo‘lmagan, bu uy ham, unda yashovchi, sirli jinoyatlarni ochadigan va qiyin vaziyatlarga tushib qoladigan insonlarga yordam beradigan izquvar Sherlok Xolms ham, Xolmsning do‘sti doktor Uotson ham mavjud bo‘lmagan — bularning bari Konan Doyl tomonidan o‘ylab topilgan.",
+                      "image": "https://uzbeklar.biz/uploads/posts/2022-04/1651083426-1266669871.jpg",
+                      "pdf": "http://ferlibrary.uz/f/artur_konan_doyl_sherlok_xolms_haqida_hikoyalar_15.pdf"
+        }
+        ,
+        {
+                      "name": "Alvido ey Gulsari",
+                      "author": "Chingiz Aytmatov",
+                      "biography": "Chingiz Toʻraqulovich Aytmatov (qirgʻ. Чыңгыз Төрөкул уулу Айтматов; 12-dekabr, 1928 – 10-iyun, 2008) – Qirgʻiziston xalq yozuvchisi (1968). „Sarvqomat dilbarim“ („Dovon“), „Boʻtakoʻz“ („Jazirama“), „Birinchi muallim“, „Jamila“ kabi asarlari bilan mashhur. Qirg'izistondagi Talas vodiysidagi Shakar ovulida tug'ilgan.",
+                      "overview": "XX asr jahon adabiyotining yirik vakillaridan boʼlgan Chingiz Аytmatovning “Аlvido, ey Gulsari” nomli qissasi boshqa koʼplab asarlari kabi juda mashhur. Qissaning bosh qahramoni Tanaboy jon taslim qilayotgan oti Gulsarining boshida turib, butun oʼtgan umrini yodga oladi. Bunda bir tomondan odamlardagi mehr-oqibat yoʼqolib borayotgani, ikkinchi tomondan, inson va tabiat oʼrtasidagi muvozanatning buzilib borayotganligi hikoya qilinadi. Ch. Аytmatovning bu qissasida ham ekologiya masalasi, tabiatni, hayvonot dunyosini asrash, avlod-avlodlarga sogʼlom va asl holida yetkazish masalasi izchillik bilan qalamga olinadi.",
+                      "image": "https://assets.asaxiy.uz/product/items/desktop/df877f3865752637daa540ea9cbc474f2022073115221448765PgZwID0L8a.jpg",
+                      "pdf": "http://ferlibrary.uz/f/chingiz_aytmatov_alvido_ey_gulsari_qissa_15.pdf"
+        }
+        ,
+        {
+                      "name": "Martin Eden",
+                      "author": "Jack London",
+                      "biography": "Jack London (talaffuzi: Jek London) (toʻliq ismi John Griffith „Jack“ London, tavallud topganidagi ismi John Griffith Chaney) (12-yanvar, 1876 — 22-noyabr, 1916)[2] — amerika yozuvchisi va jurnalisti. London asarlari boshqa tillarga eng koʻp tarjima qilingan Amerikalik yozuvchilardar biridir.",
+                      "overview": "„Martin Eden“ (talaffuzi: Martin Iden) (inglizcha: Martin Eden) — amerikalik yozuvchi Jack London qalamiga mansub roman. Kitob oʻlaroq birinchi marta 1909-yil „Macmillan“ nashriyoti tomonidan chop etilgan. Ilk bor 1908-yilning sentabridan 1909-yilning sentabrigacha „The Pacific Monthly“ jurnalida chop etilgan. „Martin Eden“ Londonning oʻzbek kitobxonlari orasida eng yaxshi tanilgan asarlaridan biridir. Romanni oʻzbek tiliga Qodir Mirmuhamedov tarjima qilgan. Oʻzbekcha nashr 1986-yil Toshkent shahrida Gʻafur Gʻulom nomidagi badiiy adabiyot nashriyotida chop etilgan.",
+                      "image": "https://www.readandcobooks.co.uk/wp-content/uploads/martin-eden-london-9781528712187-cover.jpg",
+                      "pdf": "http://ferlibrary.uz/f/onta_negr_bolasi_uznell_1.pdf"
+        }
+        ,
+        {
+                      "name": "O'nta negr bolasi",
+                      "author": "Agata Kristi",
+                      "biography": "Agata Mari Klarissa Kristi (inglizcha: Agatha Mary Clarissa Christie) (1891.15.9, Torki, Angliya — 1976) — ingliz yozuvchisi. Detektiv janr ustasi. 85 roman, 20 pyesa va koʻplab hikoyalar muallifi. K. eng yaxshi asarlarida (\"Puaro tergov qiladi\", 1924; \"Kaminlar siri\", 1925; \"Rojer Ekroydning katl etilishi\", 1926; \"N yoki M?\" 1941; \"Qopqon\", 1954; \"Ayblov guvoxi\", 1954 va boshqalar) jinoyat nafaqat dalillar asosida, balki qahramonlarning, chunonchi, belgiyalik izquvar Erkyul Puaroning botiniy tuygʻusi va sezgirligi tufayli ochiladi.",
+                      "overview": "Agata Kristi nomini alohida tanishtirishga hojat yo‘q. Adabiyot ahli tomonidan haqli ravishda detektiv janrining yetakchilaridan biri sifatida tan olingan. Uning mazkur asarida ham kitobxon sirli va qiziqarli olamga sayohat qilishi muqarrar. Muallifning o‘zi aynan shu asarini eng yaxshisi deya eʼtirof etgani ham bejiz emas. Ushbu asarda bir- biriga hech qanday aloqador bo‘lmagan o‘nta odam xilvat oroldagi uyga keladi. Sirli taklifnoma bilan ularni bu yerga kim chaqirdi? Yaxshi detektiv ixlosmandlarining yuragi darrov shuv etib ketadigan manzara. Dunyodan ajrab qolgan bo‘m- bo‘sh orol, ko‘p xonali, zimiston yo‘lakli katta sirli uy va Zanjilar orolining sohibi taklifiga ko‘ra uyga kelgan o‘nta mutlaqo notanish, bir- biriga o‘xshamagan o‘nta odam.",
+                      "image": "https://yuz.uz/file/news/9460ece58e93fb8202a9eeb06899b646.jpg",
+                      "pdf": "http://ferlibrary.uz/f/onta_negr_bolasi_uznell_1.pdf"
+        }
+        ,
+        {
+                      "name": "Otalar va bolalar",
+                      "author": "Ivan Turgenev",
+                      "biography": "Ivan Sergeyevich Turgenev [1818.28.10 (9.11), Oryol — 1883.22.8 (3.9), Parij yaqinidagi Bujival qishlogʻi; Sankt-Peterburgdagi Volkovo qabristoniga dafn etilgan] — rus yozuvchisi. Peterburg universitetining falsafa ftini tugatgan (1837). T.ning dastlabki romantik sheʼrlari va \"Steno\" dramatik dostoni (1834) talabalik yillarida yozilgan. T.Peterburgdagi oʻqishni tugatgach, Berlinga borib (1838), falsafa va klassik filol. boʻyicha maʼruzalar tinglagan.",
+                      "overview": "Mashhur rus yozuvchisi I.S.Turgenevning o’z davrida katta shuhrat qozongan ushbu “Otalar va bolalar” ‎romani rus adabiyotshunosligida yozuvchi ijodining cho’qqisi sifatida talqin etiladi. Adib bosh qahramon ‎Bazarov obrazida hurfikrlilik va yangilik sari intilish kabi fazilatlarni asarning aosisiy g’oyasi sifatida talqin ‎etadi. Kitobdagi voqealar o’sha davrda chiriy boshlagan jamiyatni shunchaki isloh etish emas, balki ‎poydevorini tag-tugi bilan yo’q qilib, yangisini barpo etish kerakligini ko’rsatib beradi.",
+                      "image": "https://kitoblardunyosi.uz/image/cache/catalog/boshqa-kitoblar/otalar_va_bolalar-500x750.jpg",
+                      "pdf": "http://ferlibrary.uz/f/otalarvabolalar15.pdf"
+        }
+        ,
+        {
+                      "name": "Tirik qolish buyurilgan",
+                      "author": "Yulian Semyonov",
+                      "biography": "Yulian Semyonovich Lyandresning taxallusi ( ruscha: Ля́ндрес ) (1931-yil 8-oktabr - 1993-yil 15-sentabr), sovet va rus yozuvchisi, josuslik va detektiv fantastika yozuvchisi, shuningdek, ssenariylar muallifi va shoir. U to'qima ayg'oqchi Shtirlitsni yaratgani bilan mashhur.",
+                      "overview": "Muallif «Bahorning o‘n etti lahzasi» romanining uzviy davomi bo‘lgan o‘zining yangi «Tirik qolish buyurilgan» deb nomlanuvchi asarida gitlerchilar reyxining o‘lim oldidagi talvasasini, fashizm peshvolarining o‘z hayotlarini saqlab qolish yo‘lida har qanday qabihlikdan ham toymay qilgan behuda urinishlarishni tasvirlaydi.",
+                      "image": "https://kitobxon.com/img_knigi/s1565.jpg",
+                      "pdf": "http://ferlibrary.uz/f/tirik_qolish_buyurilgan15.pdf"
+        }
+        ,
+        {
+                      "name": "Hamlet",
+                      "author": "Wilyam Shekspir",
+                      "biography": "William Shakespeare (talaffuzi: Uilyam Shekspir; 26-aprel 1564-yil – 23-aprel 1616-yil) — ingliz dramaturgi, shoir va aktyor, dunyoning eng mashhur dramaturglaridan biri, kamida 17 ta komediya, 10 ta xronika, 11 ta fojia, 5 ta poema va 154 sonetdan iborat siklning muallifi.",
+                      "overview": "„Hamlet“ (ayrim manbalarda rus tili taʼsirida Gamlet oʻlaroq yoziladi) (inglizcha: Hamlet), toʻliq nomi „Daniya shahzodasi Hamlet tragediyasi“ (inglizcha: The Tragedy of Hamlet, Prince of Denmark) — William Shakespeare 1599–1602-yillar oʻrtasida yozgan tragediya. Pyesadagi hodisalar Daniya qirolligida sodir boʻladi. Hamletning otasi Qirol Hamletning ruhi oʻgʻlini amakisi Claudiusdan (Klavdiy) oʻch olishga chorlaydi. Claudius oʻz akasini oʻldirib, taxtni qoʻlga kiritgan boʻladi va akasining bevasiga uylanadi.",
+                      "image": "https://g.christianbook.com/g/slideshow/7/72789/main/72789_1_ftc_dp.jpg",
+                      "pdf": "http://ferlibrary.uz/f/uilyam_shekispirkhamlet15.pdf"
+        }
+        ,
+        {
+                      "name": "Jinoyat va jazo",
+                      "author": "Fyodor Mihaylovich Dostoyevski",
+                      "biography": "Dostoyevskiy Fyodor Mixaylovich (1821.30.10, Moskva — 1881.28.1, Sankt-Peterburg) — rus yozuvchisi. Ijodiy faoliyati 1844-yilda boshlangan. Birinchi romani — „Bechora odamlar“da (1846) xoʻrlangan, ijtimoiy adolatsizlikka duchor boʻlgan „kichkina odamlar“ning qismati hikoya qilingan. „Qiyofadosh“ (1846), „Oq tunlar“ (1848) qissalari ham ijtimoiy mavzuda. N. Dobrolyubov, V. Belinskiy kabi demokrat ziyolilarning inqilobiy gʻoyalariga mahliyo boʻlib qolgan D. 1847-yildan rus inqilobchisi va xayoliy sotsialisti M. V. Petrashevskiy toʻgaragiga faol qatnashib, xayoliy sotsializm gʻoyasini qoʻllab-quvvatlaydi.",
+                      "overview": "\"Jinoyat va jazo\"—1865-1866-yillarda yozilgan Fyodor Mihaylovich Dostoyevskining ijtimoiy-psixologik va ijtimoiy-falsafiy romani. Birinchi marta 1866 yilda „Russian Bulletin“ jurnalida nashr etilgan. Bir yil oʻtgach jurnal nashriga nisbatan biroz oʻzgartirilib alohida kitob nashr etildi. Muallif kitob versiyasiga bir qator qisqartmalar va uslubiy oʻzgartirishlar kiritdi.[1]",
+                      "image": "https://kitobxon.com/img_knigi/1487.jpg",
+                      "pdf": "http://ferlibrary.uz/f/jinoyat_va_jazo15.pdf"
+        }
+        ,
+        {
+                      "name": "Graf Monte-Kristo",
+                      "author": "Alexandre Dumasning",
+                      "biography": "Alexandre Dumas (talaffuzi: Aleksandr Dyuma) (24-iyul 1802 — 5-dekabr 1870) — farang yozuvchisi. Sarguzashtlarga boy tarixiy romanlari bilan nom chiqargan. Dyuma eng mashhur fransuz yozuvchilaridandir. Alexandre Dumasning oʻgʻli Alexandre Dumas (oʻgʻil)|Alexandre Dumas ham yozuvchi boʻlgan. Shuning uchun Alexandre Dumas katta Dumas père (Dumas-ota) va Alexandre Dumas kichkina Dumas fils (Dumas-oʻgʻil) deb yuritiladi.",
+                      "overview": "„Graf Monte-Kristo“ (fransuzcha: Le comte de Monte Cristo) — Alexandre Dumasning sarguzasht romani, 1844-45 yillarda yozilgan, fransuz adabiyotining klassik asari. Muallif Oʻrtayer dengizi boʻylab sayohat qilayotganida, Montekristo orolini koʻrgan va u yerda koʻmilgan xazinalar haqida afsonani eshitgan. Bundan keyin qahramon ismini oʻylab topgan. Muallif orol nomini oʻzgartirgan xolos. Romandagi voqealar 1815-29 va 1838-yillarda boʻlib oʻtadi.\n\n",
+                      "image": "https://kitobxon.com/img_knigi/1551.jpg",
+                      "pdf": "http://ferlibrary.uz/f/graf_monte_kristo15.pdf"
+        }
+        ,
+        {
+                      "name": "Amerika fojiasi",
+                      "author": "Teodor Drayzer",
+                      "biography": "Theodore Dreiser (talaffuzi:Teodor Drayzer 27-avgust 1871-yil — 28-dekabr 1945-yil) — amerikalik yozuvchi va davlat arbobi, tabiatshunoslik maktabining jurnalisti. Uning romanlarida ko'pincha qat'iy axloqiy me'yorlar yo'qligiga qaramay o'z maqsadlariga erishgan bosh qahramonlar va tanlov va ixtiyoriy ertaklardan ko'ra tabiatni o'rganishga ko'proq o'xshash adabiy vaziyatlar tasvirlangan. Drayzerning eng mashhur romanlari qatoriga \"Baxtiqaro Kerri\"(1900), \"Sarmoyador\" (1912) va \"Amerika fojiasi\" (1925) kiradi. 2022-yil Muhabbat Ismoilova tarjimasi asosida va \"Asaxiy books\" loyihasi doirasida \"Sarmoyador\" romani o'zbek tiliga qayta tarjima qilindi.",
+                      "overview": "\"Amerika fojiasi\" (inglizcha: An American Tragedy)— amerikalik yozuvchi Teodor Drayzerning 1925-yil 17-noyabrda nashr etilgan romani.\nAmerika fojeasi asarining 1926-yilda chop etilgan original versiyasi\nSyujet Chester Gillettening 1906-yilda oʻz sevgilisi Greys Braunni oʻldirishi[1] va shunga oʻxshash hodisa boʻlgan Karlayl Xarris va Klarens Richesonning ishi asosida qurilgan. Roman chiqqandan soʻng, kitobxonlar orasida katta muvaffaqiyat ega boʻldi. Romanning nashriyotchisi Horace Livewright 1926-yilda asarning teatrlashtirilgan versiyasini yaratdi.",
+                      "image": "https://kitobxon.com/img_knigi/1478.jpg",
+                      "pdf": "http://ferlibrary.uz/f/amerika_fojiasi_15.pdf"
+        }
+    ]
+}
