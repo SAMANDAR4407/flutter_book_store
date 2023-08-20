@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:my_book_store/models/book_model.dart';
+import 'package:my_book_store/page/provider/book_provider.dart';
 import 'package:my_book_store/widgets/book_card.dart';
+import 'package:provider/provider.dart';
 import 'package:yako_theme_switch/yako_theme_switch.dart';
 
-import '../core/book_api.dart';
-import '../main.dart';
-import 'details_page.dart';
+import '../../main.dart';
+import '../details_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -19,39 +19,20 @@ class HomePage extends StatefulWidget {
 enum Status { initial, loading, fail, success }
 
 class _HomePageState extends State<HomePage> {
-  final api = BookApi();
-  var list = <BookModel>[];
-  var status = Status.loading;
-  var error = '';
   var query = '';
   final controller = TextEditingController();
-  final node = FocusNode();
+  final _node = FocusNode();
 
   @override
   void initState() {
-    loadData(null);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      context.read<BookProvider>().loadData(null);
+    });
     controller.addListener(() {
       query = controller.text;
-      loadData(query);
+      context.read<BookProvider>().loadData(query);
     });
     super.initState();
-  }
-
-  Future<void> loadData(String? query) async {
-    status = Status.loading;
-    setState(() {});
-    try {
-      if (query != null) {
-        list = await api.getRequiredList(query);
-      } else {
-        list = await api.getList();
-      }
-      status = Status.success;
-    } catch (e) {
-      error = '$e';
-      status = Status.fail;
-    }
-    setState(() {});
   }
 
   @override
@@ -110,13 +91,13 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                   child: TextField(
-                    focusNode: node,
+                    focusNode: _node,
                     controller: controller,
                     onEditingComplete: () {
-                      loadData(query);
+                      context.read<BookProvider>().loadData(query);
                     },
                     onTapOutside: (event) {
-                      node.unfocus();
+                      _node.unfocus();
                       setState(() {});
                     },
                     cursorColor: Colors.red,
@@ -144,13 +125,14 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Expanded(child: Builder(
                   builder: (context) {
-                    if (status == Status.loading) {
+                    final list = context.watch<BookProvider>().list;
+                    if (context.watch<BookProvider>().loading) {
                       return Container();
                     }
-                    if (status == Status.fail) {
+                    if (context.watch<BookProvider>().error.isNotEmpty) {
                       return Center(
                         child: Text(
-                          'Xatolik\n$error',
+                          'Xatolik\n${context.watch<BookProvider>().error}',
                           textAlign: TextAlign.center,
                           style: const TextStyle(
                               fontSize: 20, fontWeight: FontWeight.bold),
@@ -170,7 +152,7 @@ class _HomePageState extends State<HomePage> {
                         final model = list[index];
                         return BookCard(
                             onTap: () {
-                              node.unfocus();
+                              _node.unfocus();
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
@@ -190,7 +172,7 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           ),
-          status == Status.loading
+          context.watch<BookProvider>().loading
               ? const Center(
                   child: CupertinoActivityIndicator(
                     radius: 15,

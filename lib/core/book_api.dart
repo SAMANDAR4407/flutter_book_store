@@ -15,10 +15,10 @@ class BookApi {
 
   Future<List<BookModel>> getRequiredList(String query) async {
     final response = await _dio.get("a9195398-8204-4ace-b0ee-4d949bdc195d");
-    var responseList = (response.data['books'] as List).map((e) => BookModel.fromJson(e)).toList();
     var requiredList = <BookModel>[];
+    var responseList = (response.data['books'] as List).map((e) => BookModel.fromJson(e)).toList();
     for(var data in responseList){
-      if(data.name.toLowerCase().startsWith(query)){
+      if(data.name.toLowerCase().startsWith(query) || data.author.toLowerCase().startsWith(query)){
         requiredList.add(data);
       }
     }
