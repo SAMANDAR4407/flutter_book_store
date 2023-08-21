@@ -16,20 +16,20 @@ final _privateConstructorUsedError = UnsupportedError(
 
 /// @nodoc
 mixin _$BookEvent {
-  String get query => throw _privateConstructorUsedError;
+  String? get query => throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(String query) loadData,
+    required TResult Function(String? query) loadData,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(String query)? loadData,
+    TResult? Function(String? query)? loadData,
   }) =>
       throw _privateConstructorUsedError;
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(String query)? loadData,
+    TResult Function(String? query)? loadData,
     required TResult orElse(),
   }) =>
       throw _privateConstructorUsedError;
@@ -60,7 +60,7 @@ abstract class $BookEventCopyWith<$Res> {
   factory $BookEventCopyWith(BookEvent value, $Res Function(BookEvent) then) =
       _$BookEventCopyWithImpl<$Res, BookEvent>;
   @useResult
-  $Res call({String query});
+  $Res call({String? query});
 }
 
 /// @nodoc
@@ -76,13 +76,13 @@ class _$BookEventCopyWithImpl<$Res, $Val extends BookEvent>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? query = null,
+    Object? query = freezed,
   }) {
     return _then(_value.copyWith(
-      query: null == query
+      query: freezed == query
           ? _value.query
           : query // ignore: cast_nullable_to_non_nullable
-              as String,
+              as String?,
     ) as $Val);
   }
 }
@@ -94,7 +94,7 @@ abstract class _$$_loadDataCopyWith<$Res> implements $BookEventCopyWith<$Res> {
       __$$_loadDataCopyWithImpl<$Res>;
   @override
   @useResult
-  $Res call({String query});
+  $Res call({String? query});
 }
 
 /// @nodoc
@@ -108,13 +108,13 @@ class __$$_loadDataCopyWithImpl<$Res>
   @pragma('vm:prefer-inline')
   @override
   $Res call({
-    Object? query = null,
+    Object? query = freezed,
   }) {
     return _then(_$_loadData(
-      query: null == query
+      query: freezed == query
           ? _value.query
           : query // ignore: cast_nullable_to_non_nullable
-              as String,
+              as String?,
     ));
   }
 }
@@ -122,11 +122,11 @@ class __$$_loadDataCopyWithImpl<$Res>
 /// @nodoc
 
 class _$_loadData implements _loadData {
-  const _$_loadData({this.query = ''});
+  const _$_loadData({this.query = null});
 
   @override
   @JsonKey()
-  final String query;
+  final String? query;
 
   @override
   String toString() {
@@ -153,7 +153,7 @@ class _$_loadData implements _loadData {
   @override
   @optionalTypeArgs
   TResult when<TResult extends Object?>({
-    required TResult Function(String query) loadData,
+    required TResult Function(String? query) loadData,
   }) {
     return loadData(query);
   }
@@ -161,7 +161,7 @@ class _$_loadData implements _loadData {
   @override
   @optionalTypeArgs
   TResult? whenOrNull<TResult extends Object?>({
-    TResult? Function(String query)? loadData,
+    TResult? Function(String? query)? loadData,
   }) {
     return loadData?.call(query);
   }
@@ -169,7 +169,7 @@ class _$_loadData implements _loadData {
   @override
   @optionalTypeArgs
   TResult maybeWhen<TResult extends Object?>({
-    TResult Function(String query)? loadData,
+    TResult Function(String? query)? loadData,
     required TResult orElse(),
   }) {
     if (loadData != null) {
@@ -208,10 +208,10 @@ class _$_loadData implements _loadData {
 }
 
 abstract class _loadData implements BookEvent {
-  const factory _loadData({final String query}) = _$_loadData;
+  const factory _loadData({final String? query}) = _$_loadData;
 
   @override
-  String get query;
+  String? get query;
   @override
   @JsonKey(ignore: true)
   _$$_loadDataCopyWith<_$_loadData> get copyWith =>

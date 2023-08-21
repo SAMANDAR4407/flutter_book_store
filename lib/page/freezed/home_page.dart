@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:my_book_store/core/book_api.dart';
-import 'package:my_book_store/page/bloc/book_bloc.dart';
+import 'package:my_book_store/page/freezed/book_bloc.dart';
 import 'package:my_book_store/widgets/book_card.dart';
 import 'package:my_book_store/widgets/book_shimmer.dart';
 import 'package:yako_theme_switch/yako_theme_switch.dart';
@@ -26,9 +26,9 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    bloc.add(LoadDataEvent(null));
+    bloc.add(const BookEvent.loadData());
     controller.addListener(() {
-      bloc.add(LoadDataEvent(controller.text));
+      bloc.add(BookEvent.loadData(query: controller.text));
     });
   }
 
@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
                       decoration: InputDecoration(
                         enabledBorder: InputBorder.none,
                         focusedBorder: InputBorder.none,
-                        hintText: 'Izlash',
+                        hintText: 'Qidiruv',
                         suffixIcon: controller.text.isNotEmpty
                             ? InkWell(
                             onTap: () => controller.text = '',
@@ -136,6 +136,11 @@ class _HomePageState extends State<HomePage> {
                           itemBuilder: (context, index) {
                             return const BookShimmer();
                           },
+                        );
+                      }
+                      if(state.list.isEmpty){
+                        return const Center(
+                          child: Text('Kitob topilmadi', style: TextStyle(fontSize: 20)),
                         );
                       }
                       if (state.message.isNotEmpty) {
