@@ -5,6 +5,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:my_book_store/core/book_api.dart';
 import 'package:my_book_store/page/bloc/book_bloc.dart';
 import 'package:my_book_store/widgets/book_card.dart';
+import 'package:my_book_store/widgets/book_shimmer.dart';
 import 'package:yako_theme_switch/yako_theme_switch.dart';
 
 import '../../main.dart';
@@ -123,10 +124,18 @@ class _HomePageState extends State<HomePage> {
                       final list = state.list;
                       if (state.status == EnumStatus.loading &&
                           state.list.isEmpty) {
-                        return const Center(
-                          child: CupertinoActivityIndicator(
-                            radius: 15,
-                          ),
+                        return GridView.builder(
+                          padding: const EdgeInsets.only(bottom: 20),
+                          itemCount: 10,
+                          gridDelegate:
+                          const SliverGridDelegateWithFixedCrossAxisCount(
+                              crossAxisCount: 2,
+                              crossAxisSpacing: 14,
+                              mainAxisSpacing: 18,
+                              childAspectRatio: 0.55),
+                          itemBuilder: (context, index) {
+                            return const BookShimmer();
+                          },
                         );
                       }
                       if (state.message.isNotEmpty) {
