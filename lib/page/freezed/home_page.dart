@@ -125,7 +125,7 @@ class _HomePageState extends State<HomePage> {
                           state.list.isEmpty) {
                         return const Center(
                           child: CupertinoActivityIndicator(
-                            radius: 20,
+                            radius: 15,
                           ),
                         );
                       }
