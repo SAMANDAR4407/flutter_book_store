@@ -2,73 +2,59 @@
 {
     "books": [
         {
-            "id" : "100e0bec-397f-45a0-b14d-b1c134f18e6c",
-            "name" : "Sherlock Holms",
-            "author" : "Artur Conan Doyle",
-            "image" : "https://uzbeklar.biz/uploads/posts/2022-04/1651083426-1266669871.jpg"
+            "id" : "6e13f100-cd86-4ea5-a678-ff7ca517d58c",
+            "name": "By Wit of Woman",
+            "author": "Arthur W. Marchmont",
+            "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-auto-31012.jpg?itok=QK6RXEaf"
         }
         ,
         {
-            "id" : "a33236b7-22e3-4828-9b9b-8659201ed7e7",
-            "name": "Alvido ey Gulsari",
-            "author": "Chingiz Aytmatov",
-            "image": "https://assets.asaxiy.uz/product/items/desktop/df877f3865752637daa540ea9cbc474f2022073115221448765PgZwID0L8a.jpg"
-        }
-        ,
-        {
-            "id" : "f2148368-30a5-4a2e-b255-e9d59f3c7dc8",
-            "name": "Martin Eden",
+            "id" : "7b391a14-bc1d-4119-8bfd-e0e10ee96867",
+            "name": "White Fang",
             "author": "Jack London",
-            "image": "https://www.readandcobooks.co.uk/wp-content/uploads/martin-eden-london-9781528712187-cover.jpg"
+            "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-orig-4504.jpg?itok=7GUogtiG"
         }
         ,
         {
-            "id" : "baa85a9b-2d9f-4888-ad13-be0ec617c45c",
-            "name": "O'nta negr bolasi",
-            "author": "Agata Kristi",
-            "image": "https://yuz.uz/file/news/9460ece58e93fb8202a9eeb06899b646.jpg"
+            "id" : "b37c2e4d-03bb-46a4-8fc8-a47eb4e6d2d6",
+            "name": "A Journey to the Centre of the Earth",
+            "author": "Jules Verne",
+            "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-orig-10748.jpg?itok=cBO0Hw7-"
         }
         ,
         {
-            "id" : "43630c9d-5b7e-47d5-adee-f7481bb9690c",
-            "name": "Otalar va bolalar",
-            "author": "Ivan Turgenev",
-            "image": "https://kitoblardunyosi.uz/image/cache/catalog/boshqa-kitoblar/otalar_va_bolalar-500x750.jpg"
+            "id" : "925ac114-2df4-4d7b-8294-56fa4eaa636e",
+            "name": "Adventures of Huckleberry Finn",
+            "author": "Mark Twain",
+            "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-orig-7032.jpg?itok=SzLOTSG-"
         }
         ,
         {
-            "id" : "e0b34ad6-0da3-4f3a-b3f2-50aeddf47063",
-            "name": "Tirik qolish buyurilgan",
-            "author": "Yulian Semyonov",
-            "image": "https://kitobxon.com/img_knigi/s1565.jpg"
-        }
-        ,
-        {
-            "id" : "5e9123da-38db-431b-9861-f5ddab21d27f",
-            "name": "Hamlet",
-            "author": "Wilyam Shekspir",
-            "image": "https://g.christianbook.com/g/slideshow/7/72789/main/72789_1_ftc_dp.jpg"
-        }
-        ,
-        {
-            "id" : "40e58747-30a7-458b-a84a-59d846e67e22",
-            "name": "Jinoyat va jazo",
-            "author": "Fyodor Mihaylovich Dostoyevski",
-            "image": "https://kitobxon.com/img_knigi/1487.jpg"
-        }
-        ,
-        {
-            "id" : "e171e297-4007-481d-9bd2-abf1fbda3c97",
-            "name": "Graf Monte-Kristo",
+            "id" : "5b2d1399-5aee-4d84-935b-429c282061fe",
+            "name": "The Count of Monte Cristo",
             "author": "Alexandre Dumas",
-            "image": "https://kitobxon.com/img_knigi/1551.jpg"
+            "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-cust-2356.jpg?itok=NsH-dAJf"
         }
         ,
         {
-            "id" : "95f93651-0b00-4d0d-8319-524b20f6fe18",
-            "name": "Amerika fojiasi",
-            "author": "Teodor Drayzer",
-            "image": "https://kitobxon.com/img_knigi/1478.jpg"
+            "id" : "218cf437-04ec-42e4-8707-93f9d0c2cff1",
+            "name": "Fast as the Wind",
+            "author": "Nat Gould",
+            "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1616469737i/57494756.jpg"
+        }
+        ,
+        {
+            "id" : "dafa7655-5255-4108-9fc3-7de14d49fd49",
+            "name": "Alien Cradle",
+            "author": "Jeff Inlo",
+            "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-orig-25962.jpg?itok=xvRbMbjo"
+        }
+        ,
+        {
+            "id" : "fdf52cf0-d0fa-4fe7-a777-9b61b4beb1ad",
+            "name": "Cleopatra",
+            "author": "H. Rider Haggard",
+            "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-orig-3105.jpg?itok=wSjOd-si"
         }
     ]
 }
@@ -76,93 +62,75 @@
 {
     "details": [
         {
-                      "name": "Sherlock Holms",
-                      "author": "Artur Conan Doyle",
-                      "biography": "Artur Konan Doyl (inglizcha: Arthur Conan Doyle; 22-may 1859-yil — 7-iyul 1930-yil) — shotlandiyalik fizik va yozuvchi. Artur Konan Doyl Sherlok Xolms haqida yozgan detektiv asarlari bilan butun dunyoga mashhurdir. Xolms haqidagi hikoyalarini millionlab kitobxonlar hozirga qadar sevib oʻqiydi.",
-                      "overview": "Sherlock Holmes — Arthur Conan Doyle hikoya va qissalarining bosh qahramoni, izquvar. Holmes izquvar maʼnosida turdosh otga aylangan. Angliya poytaxti Londondagi Beyker strit ko‘chasida 221-B raqamli uy bor. Sherlok Xolms shu uyda „yashagan“. Aslida, Konan Doyl davrida Beyker strit ko‘chasida bunday raqamli uy mavjud bo‘lmagan, bu uy ham, unda yashovchi, sirli jinoyatlarni ochadigan va qiyin vaziyatlarga tushib qoladigan insonlarga yordam beradigan izquvar Sherlok Xolms ham, Xolmsning do‘sti doktor Uotson ham mavjud bo‘lmagan — bularning bari Konan Doyl tomonidan o‘ylab topilgan.",
-                      "image": "https://uzbeklar.biz/uploads/posts/2022-04/1651083426-1266669871.jpg",
-                      "pdf": "http://ferlibrary.uz/f/artur_konan_doyl_sherlok_xolms_haqida_hikoyalar_15.pdf"
+                      "name": "By Wit of Woman",
+                      "author": "Arthur W. Marchmont",
+                      "biography": "Arthur William Marchmont was probably born in 1853 in London, the son of the Rev. Henry Marchmont. His mother appears to have died at his birth or shortly after. He attended Pembroke College, Oxford, where he took a degree before entering Lincoln's Inn. He left law and turned to journalism, editing the North Eastern Daily Gazette and the Lancashire Daily Post. In the mid-1890s, he left journalism to devote himself to fiction. In total, he wrote some 35 novels which often featured exciting plots and foreign settings. In 1892, he married Fanny Jaques but the couple had no children. Marchmont died on 2 July 1923 in Bath a fortnight after his wife Fanny.",
+                      "overview": "\"By Wit of Woman\" is a Merchmont adventure novel set in Hungary. It is a fast-moving story centered around the affairs of state, kidnapping, and forbidden love.",
+                      "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-auto-31012.jpg?itok=QK6RXEaf",
+                      "pdf": "https://firebasestorage.googleapis.com/v0/b/flutter-book-reader-fa367.appspot.com/o/By-Wit-of-Woman.pdf?alt=media&token=e318f5cd-540f-40db-bc5e-2820db5bc796"
         }
         ,
         {
-                      "name": "Alvido ey Gulsari",
-                      "author": "Chingiz Aytmatov",
-                      "biography": "Chingiz Toʻraqulovich Aytmatov (qirgʻ. Чыңгыз Төрөкул уулу Айтматов; 12-dekabr, 1928 – 10-iyun, 2008) – Qirgʻiziston xalq yozuvchisi (1968). „Sarvqomat dilbarim“ („Dovon“), „Boʻtakoʻz“ („Jazirama“), „Birinchi muallim“, „Jamila“ kabi asarlari bilan mashhur. Qirg'izistondagi Talas vodiysidagi Shakar ovulida tug'ilgan.",
-                      "overview": "XX asr jahon adabiyotining yirik vakillaridan boʼlgan Chingiz Аytmatovning “Аlvido, ey Gulsari” nomli qissasi boshqa koʼplab asarlari kabi juda mashhur. Qissaning bosh qahramoni Tanaboy jon taslim qilayotgan oti Gulsarining boshida turib, butun oʼtgan umrini yodga oladi. Bunda bir tomondan odamlardagi mehr-oqibat yoʼqolib borayotgani, ikkinchi tomondan, inson va tabiat oʼrtasidagi muvozanatning buzilib borayotganligi hikoya qilinadi. Ch. Аytmatovning bu qissasida ham ekologiya masalasi, tabiatni, hayvonot dunyosini asrash, avlod-avlodlarga sogʼlom va asl holida yetkazish masalasi izchillik bilan qalamga olinadi.",
-                      "image": "https://assets.asaxiy.uz/product/items/desktop/df877f3865752637daa540ea9cbc474f2022073115221448765PgZwID0L8a.jpg",
-                      "pdf": "http://ferlibrary.uz/f/chingiz_aytmatov_alvido_ey_gulsari_qissa_15.pdf"
-        }
-        ,
-        {
-                      "name": "Martin Eden",
+                      "name": "White Fang",
                       "author": "Jack London",
-                      "biography": "Jack London (talaffuzi: Jek London) (toʻliq ismi John Griffith „Jack“ London, tavallud topganidagi ismi John Griffith Chaney) (12-yanvar, 1876 — 22-noyabr, 1916)[2] — amerika yozuvchisi va jurnalisti. London asarlari boshqa tillarga eng koʻp tarjima qilingan Amerikalik yozuvchilardar biridir.",
-                      "overview": "„Martin Eden“ (talaffuzi: Martin Iden) (inglizcha: Martin Eden) — amerikalik yozuvchi Jack London qalamiga mansub roman. Kitob oʻlaroq birinchi marta 1909-yil „Macmillan“ nashriyoti tomonidan chop etilgan. Ilk bor 1908-yilning sentabridan 1909-yilning sentabrigacha „The Pacific Monthly“ jurnalida chop etilgan. „Martin Eden“ Londonning oʻzbek kitobxonlari orasida eng yaxshi tanilgan asarlaridan biridir. Romanni oʻzbek tiliga Qodir Mirmuhamedov tarjima qilgan. Oʻzbekcha nashr 1986-yil Toshkent shahrida Gʻafur Gʻulom nomidagi badiiy adabiyot nashriyotida chop etilgan.",
-                      "image": "https://www.readandcobooks.co.uk/wp-content/uploads/martin-eden-london-9781528712187-cover.jpg",
-                      "pdf": "http://ferlibrary.uz/f/onta_negr_bolasi_uznell_1.pdf"
+                      "biography": "Jack London, pseudonym of John Griffith Chaney, (born January 12, 1876, San Francisco, California, U.S.—died November 22, 1916, Glen Ellen, California), American novelist and short-story writer whose best-known works—among them The Call of the Wild (1903) and White Fang (1906)—depict elemental struggles for survival. During the 20th century he was one of the most extensively translated of American authors.",
+                      "overview": "White Fang is a novel by American author Jack London (1876–1916) — and the name of the book's eponymous character, a wild wolfdog. First serialized in Outing magazine between May and October 1906, it was published in book form in October 1906. The story details White Fang's journey to domestication in Yukon Territory and the Northwest Territories during the 1890s Klondike Gold Rush. It is a companion novel (and a thematic mirror) to London's best-known work, The Call of the Wild (1903), which is about a kidnapped, domesticated dog embracing his wild ancestry to survive and thrive in the wild.",
+                      "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-orig-4504.jpg?itok=7GUogtiG",
+                      "pdf": "https://firebasestorage.googleapis.com/v0/b/flutter-book-reader-fa367.appspot.com/o/White-Fang.pdf?alt=media&token=e10615b2-0cc6-4be5-bc38-83b473ef8b6c"
         }
         ,
         {
-                      "name": "O'nta negr bolasi",
-                      "author": "Agata Kristi",
-                      "biography": "Agata Mari Klarissa Kristi (inglizcha: Agatha Mary Clarissa Christie) (1891.15.9, Torki, Angliya — 1976) — ingliz yozuvchisi. Detektiv janr ustasi. 85 roman, 20 pyesa va koʻplab hikoyalar muallifi. K. eng yaxshi asarlarida (\"Puaro tergov qiladi\", 1924; \"Kaminlar siri\", 1925; \"Rojer Ekroydning katl etilishi\", 1926; \"N yoki M?\" 1941; \"Qopqon\", 1954; \"Ayblov guvoxi\", 1954 va boshqalar) jinoyat nafaqat dalillar asosida, balki qahramonlarning, chunonchi, belgiyalik izquvar Erkyul Puaroning botiniy tuygʻusi va sezgirligi tufayli ochiladi.",
-                      "overview": "Agata Kristi nomini alohida tanishtirishga hojat yo‘q. Adabiyot ahli tomonidan haqli ravishda detektiv janrining yetakchilaridan biri sifatida tan olingan. Uning mazkur asarida ham kitobxon sirli va qiziqarli olamga sayohat qilishi muqarrar. Muallifning o‘zi aynan shu asarini eng yaxshisi deya eʼtirof etgani ham bejiz emas. Ushbu asarda bir- biriga hech qanday aloqador bo‘lmagan o‘nta odam xilvat oroldagi uyga keladi. Sirli taklifnoma bilan ularni bu yerga kim chaqirdi? Yaxshi detektiv ixlosmandlarining yuragi darrov shuv etib ketadigan manzara. Dunyodan ajrab qolgan bo‘m- bo‘sh orol, ko‘p xonali, zimiston yo‘lakli katta sirli uy va Zanjilar orolining sohibi taklifiga ko‘ra uyga kelgan o‘nta mutlaqo notanish, bir- biriga o‘xshamagan o‘nta odam.",
-                      "image": "https://yuz.uz/file/news/9460ece58e93fb8202a9eeb06899b646.jpg",
-                      "pdf": "http://ferlibrary.uz/f/onta_negr_bolasi_uznell_1.pdf"
+                      "name": "A Journey to the Centre of the Earth",
+                      "author": "Jules Verne",
+                      "biography": "Jules Verne, (born February 8, 1828, Nantes, France—died March 24, 1905, Amiens), prolific French author whose writings laid much of the foundation of modern science fiction. Verne’s father, intending that Jules follow in his footsteps as an attorney, sent him to Paris to study law. But the young Verne fell in love with literature, especially theatre. He wrote several plays, worked as secretary of the Théâtre Lyrique (1852–54), and published short stories and scientific essays in the periodical Musée des familles.",
+                      "overview": "Journey to the Center of the Earth (French: Voyage au centre de la Terre), also translated with the variant titles A Journey to the Centre of the Earth and A Journey into the Interior of the Earth, is a classic science fiction novel by Jules Verne. It was first published in French in 1864, then reissued in 1867 in a revised and expanded edition. Professor Otto Lidenbrock is the tale's central figure, an eccentric German scientist who believes there are volcanic tubes that reach to the very center of the earth.",
+                      "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-orig-10748.jpg?itok=cBO0Hw7-",
+                      "pdf": "https://firebasestorage.googleapis.com/v0/b/flutter-book-reader-fa367.appspot.com/o/A-Journey-to-the-Centre-of-the-Earth.pdf?alt=media&token=bbe58b5c-ef43-446e-a5bf-7937012659f2"
         }
         ,
         {
-                      "name": "Otalar va bolalar",
-                      "author": "Ivan Turgenev",
-                      "biography": "Ivan Sergeyevich Turgenev [1818.28.10 (9.11), Oryol — 1883.22.8 (3.9), Parij yaqinidagi Bujival qishlogʻi; Sankt-Peterburgdagi Volkovo qabristoniga dafn etilgan] — rus yozuvchisi. Peterburg universitetining falsafa ftini tugatgan (1837). T.ning dastlabki romantik sheʼrlari va \"Steno\" dramatik dostoni (1834) talabalik yillarida yozilgan. T.Peterburgdagi oʻqishni tugatgach, Berlinga borib (1838), falsafa va klassik filol. boʻyicha maʼruzalar tinglagan.",
-                      "overview": "Mashhur rus yozuvchisi I.S.Turgenevning o’z davrida katta shuhrat qozongan ushbu “Otalar va bolalar” ‎romani rus adabiyotshunosligida yozuvchi ijodining cho’qqisi sifatida talqin etiladi. Adib bosh qahramon ‎Bazarov obrazida hurfikrlilik va yangilik sari intilish kabi fazilatlarni asarning aosisiy g’oyasi sifatida talqin ‎etadi. Kitobdagi voqealar o’sha davrda chiriy boshlagan jamiyatni shunchaki isloh etish emas, balki ‎poydevorini tag-tugi bilan yo’q qilib, yangisini barpo etish kerakligini ko’rsatib beradi.",
-                      "image": "https://kitoblardunyosi.uz/image/cache/catalog/boshqa-kitoblar/otalar_va_bolalar-500x750.jpg",
-                      "pdf": "http://ferlibrary.uz/f/otalarvabolalar15.pdf"
+                      "name": "Adventures of Huckleberry Finn",
+                      "author": "Mark Twain",
+                      "biography": "Mark Twain, pseudonym of Samuel Langhorne Clemens, (born November 30, 1835, Florida, Missouri, U.S.—died April 21, 1910, Redding, Connecticut), American humorist, journalist, lecturer, and novelist who acquired international fame for his travel narratives, especially The Innocents Abroad (1869), Roughing It (1872), and Life on the Mississippi (1883), and for his adventure stories of boyhood, especially The Adventures of Tom Sawyer (1876) and Adventures of Huckleberry Finn (1885).",
+                      "overview": "The drifting journey of Huck and his friend Jim, a runaway slave, down the Mississippi River on their raft may be one of the most enduring images of escape and freedom in all of American literature. Although the society it satirized was already history at the time of publication, the book was quite controversial, and has remained so to this day.",
+                      "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-orig-7032.jpg?itok=SzLOTSG-",
+                      "pdf": "https://firebasestorage.googleapis.com/v0/b/flutter-book-reader-fa367.appspot.com/o/Adventures-of-Huckleberry-Finn.pdf?alt=media&token=d5d681da-b293-411c-bae4-f16813b3998d"
         }
         ,
         {
-                      "name": "Tirik qolish buyurilgan",
-                      "author": "Yulian Semyonov",
-                      "biography": "Yulian Semyonovich Lyandresning taxallusi ( ruscha: Ля́ндрес ) (1931-yil 8-oktabr - 1993-yil 15-sentabr), sovet va rus yozuvchisi, josuslik va detektiv fantastika yozuvchisi, shuningdek, ssenariylar muallifi va shoir. U to'qima ayg'oqchi Shtirlitsni yaratgani bilan mashhur.",
-                      "overview": "Muallif «Bahorning o‘n etti lahzasi» romanining uzviy davomi bo‘lgan o‘zining yangi «Tirik qolish buyurilgan» deb nomlanuvchi asarida gitlerchilar reyxining o‘lim oldidagi talvasasini, fashizm peshvolarining o‘z hayotlarini saqlab qolish yo‘lida har qanday qabihlikdan ham toymay qilgan behuda urinishlarishni tasvirlaydi.",
-                      "image": "https://kitobxon.com/img_knigi/s1565.jpg",
-                      "pdf": "http://ferlibrary.uz/f/tirik_qolish_buyurilgan15.pdf"
+                      "name": "The Count of Monte Cristo",
+                      "author": "Alexandre Dumas",
+                      "biography": "Alexandre Dumas, père, (born July 24, 1802, Villers-Cotterêts, Aisne, France—died December 5, 1870, Puys, near Dieppe), one of the most prolific and most popular French authors of the 19th century. Without ever attaining indisputable literary merit, Dumas succeeded in gaining a great reputation first as a dramatist and then as a historical novelist, especially for such works as The Count of Monte Cristo and The Three Musketeers.",
+                      "overview": "A classic adventure novel, often considered Dumas' best work, and frequently included on lists of the best novels of all time. Completed in 1844, and released as an 18-part series over the next two years, Dumas collaborated with other authors throughout. The story takes place in France, Italy, and the Mediterranean from the end of the rule of Napoleon I through the reign of Louis-Philippe.",
+                      "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-cust-2356.jpg?itok=NsH-dAJf",
+                      "pdf": "https://firebasestorage.googleapis.com/v0/b/flutter-book-reader-fa367.appspot.com/o/The-Count-of-Monte-Cristo.pdf?alt=media&token=b15599b9-8137-4220-bdd2-e3bdc4dfb8c4"
         }
         ,
         {
-                      "name": "Hamlet",
-                      "author": "Wilyam Shekspir",
-                      "biography": "William Shakespeare (talaffuzi: Uilyam Shekspir; 26-aprel 1564-yil – 23-aprel 1616-yil) — ingliz dramaturgi, shoir va aktyor, dunyoning eng mashhur dramaturglaridan biri, kamida 17 ta komediya, 10 ta xronika, 11 ta fojia, 5 ta poema va 154 sonetdan iborat siklning muallifi.",
-                      "overview": "„Hamlet“ (ayrim manbalarda rus tili taʼsirida Gamlet oʻlaroq yoziladi) (inglizcha: Hamlet), toʻliq nomi „Daniya shahzodasi Hamlet tragediyasi“ (inglizcha: The Tragedy of Hamlet, Prince of Denmark) — William Shakespeare 1599–1602-yillar oʻrtasida yozgan tragediya. Pyesadagi hodisalar Daniya qirolligida sodir boʻladi. Hamletning otasi Qirol Hamletning ruhi oʻgʻlini amakisi Claudiusdan (Klavdiy) oʻch olishga chorlaydi. Claudius oʻz akasini oʻldirib, taxtni qoʻlga kiritgan boʻladi va akasining bevasiga uylanadi.",
-                      "image": "https://g.christianbook.com/g/slideshow/7/72789/main/72789_1_ftc_dp.jpg",
-                      "pdf": "http://ferlibrary.uz/f/uilyam_shekispirkhamlet15.pdf"
+                      "name": "Fast as the Wind",
+                      "author": "Nat Gould",
+                      "biography": "Nathaniel Gould, universally known as Nat Gould, was born on 21 December 1857 at 27 York Street in Cheetham, a suburb of Manchester. Nat Gould was to spend most of his early life in that city, where his father, Nathaniel Gould 1824-1874 was a tea merchant. The family had only recently become settled in Manchester, however, at the time of Nat's birth. His parents were country people. His father was a younger son of an old yeoman family, the Goulds of Pilsbury Grange near Hartington in Derbyshire. His mother, née Mary Wright, was also born and bred in the country. This pastoral inheritance was important to Nat Gould throughout his life, and he wrote eloquently and longingly of his ancestral home.",
+                      "overview": "The story begins with an escape from prison. A man had been wrongfully convicted of murder, and after escaping, hopes to prove his innocence. It follows the lives of two brothers as they work to make that happen. The quest is to escape those searching for the convict, determine who the actual murderer was and show the older brother's innocence. There are various events in the life of the younger brother that are detailed. I enjoyed the book even though it had somewhat of an unexpected ending.",
+                      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1616469737i/57494756.jpg",
+                      "pdf": "https://firebasestorage.googleapis.com/v0/b/flutter-book-reader-fa367.appspot.com/o/Fast-as-the-Wind.pdf?alt=media&token=228783d2-6f6e-4c3d-8328-760653e8830d"
         }
         ,
         {
-                      "name": "Jinoyat va jazo",
-                      "author": "Fyodor Mihaylovich Dostoyevski",
-                      "biography": "Dostoyevskiy Fyodor Mixaylovich (1821.30.10, Moskva — 1881.28.1, Sankt-Peterburg) — rus yozuvchisi. Ijodiy faoliyati 1844-yilda boshlangan. Birinchi romani — „Bechora odamlar“da (1846) xoʻrlangan, ijtimoiy adolatsizlikka duchor boʻlgan „kichkina odamlar“ning qismati hikoya qilingan. „Qiyofadosh“ (1846), „Oq tunlar“ (1848) qissalari ham ijtimoiy mavzuda. N. Dobrolyubov, V. Belinskiy kabi demokrat ziyolilarning inqilobiy gʻoyalariga mahliyo boʻlib qolgan D. 1847-yildan rus inqilobchisi va xayoliy sotsialisti M. V. Petrashevskiy toʻgaragiga faol qatnashib, xayoliy sotsializm gʻoyasini qoʻllab-quvvatlaydi.",
-                      "overview": "\"Jinoyat va jazo\"—1865-1866-yillarda yozilgan Fyodor Mihaylovich Dostoyevskining ijtimoiy-psixologik va ijtimoiy-falsafiy romani. Birinchi marta 1866 yilda „Russian Bulletin“ jurnalida nashr etilgan. Bir yil oʻtgach jurnal nashriga nisbatan biroz oʻzgartirilib alohida kitob nashr etildi. Muallif kitob versiyasiga bir qator qisqartmalar va uslubiy oʻzgartirishlar kiritdi.[1]",
-                      "image": "https://kitobxon.com/img_knigi/1487.jpg",
-                      "pdf": "http://ferlibrary.uz/f/jinoyat_va_jazo15.pdf"
+                      "name": "Alien Cradle",
+                      "author": "Jeff Inlo",
+                      "biography": "Jeff Inlo spent several years in NJ with his wife, Joan, and their dogs. He wrote over twenty novels, focusing on fantasy and science fiction. Recently, he retired and moved to Pennsylvania. His last novel was the 15th book in the Delver Magic Series featuring the purebred delver Ryson Acumen.",
+                      "overview": "Rath Scampion, outer rim scout, explores the barren landscapes of Fenrir just before a Regency Scientific Council plants the seed of a genetically created \"alien\". Once the colony takes hold, researchers discover the Fenrites advancing at an alarming pace, passing quickly through complex stages of industrial and technological growth. As the experiment spirals out of control, Rath must flee Regency investigators, ending up in the midst of marauders and outcasts. He is caught with no safe haven as the Fenrite disaster spurs on political and military chaos throughout the Regency controlled worlds.",
+                      "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-orig-25962.jpg?itok=xvRbMbjo",
+                      "pdf": "https://firebasestorage.googleapis.com/v0/b/flutter-book-reader-fa367.appspot.com/o/Alien-Cradle.pdf?alt=media&token=daf7d851-73f9-48f1-b84a-7a62fb8443f9"
         }
         ,
         {
-                      "name": "Graf Monte-Kristo",
-                      "author": "Alexandre Dumasning",
-                      "biography": "Alexandre Dumas (talaffuzi: Aleksandr Dyuma) (24-iyul 1802 — 5-dekabr 1870) — farang yozuvchisi. Sarguzashtlarga boy tarixiy romanlari bilan nom chiqargan. Dyuma eng mashhur fransuz yozuvchilaridandir. Alexandre Dumasning oʻgʻli Alexandre Dumas (oʻgʻil)|Alexandre Dumas ham yozuvchi boʻlgan. Shuning uchun Alexandre Dumas katta Dumas père (Dumas-ota) va Alexandre Dumas kichkina Dumas fils (Dumas-oʻgʻil) deb yuritiladi.",
-                      "overview": "„Graf Monte-Kristo“ (fransuzcha: Le comte de Monte Cristo) — Alexandre Dumasning sarguzasht romani, 1844-45 yillarda yozilgan, fransuz adabiyotining klassik asari. Muallif Oʻrtayer dengizi boʻylab sayohat qilayotganida, Montekristo orolini koʻrgan va u yerda koʻmilgan xazinalar haqida afsonani eshitgan. Bundan keyin qahramon ismini oʻylab topgan. Muallif orol nomini oʻzgartirgan xolos. Romandagi voqealar 1815-29 va 1838-yillarda boʻlib oʻtadi.\n\n",
-                      "image": "https://kitobxon.com/img_knigi/1551.jpg",
-                      "pdf": "http://ferlibrary.uz/f/graf_monte_kristo15.pdf"
-        }
-        ,
-        {
-                      "name": "Amerika fojiasi",
-                      "author": "Teodor Drayzer",
-                      "biography": "Theodore Dreiser (talaffuzi:Teodor Drayzer 27-avgust 1871-yil — 28-dekabr 1945-yil) — amerikalik yozuvchi va davlat arbobi, tabiatshunoslik maktabining jurnalisti. Uning romanlarida ko'pincha qat'iy axloqiy me'yorlar yo'qligiga qaramay o'z maqsadlariga erishgan bosh qahramonlar va tanlov va ixtiyoriy ertaklardan ko'ra tabiatni o'rganishga ko'proq o'xshash adabiy vaziyatlar tasvirlangan. Drayzerning eng mashhur romanlari qatoriga \"Baxtiqaro Kerri\"(1900), \"Sarmoyador\" (1912) va \"Amerika fojiasi\" (1925) kiradi. 2022-yil Muhabbat Ismoilova tarjimasi asosida va \"Asaxiy books\" loyihasi doirasida \"Sarmoyador\" romani o'zbek tiliga qayta tarjima qilindi.",
-                      "overview": "\"Amerika fojiasi\" (inglizcha: An American Tragedy)— amerikalik yozuvchi Teodor Drayzerning 1925-yil 17-noyabrda nashr etilgan romani.\nAmerika fojeasi asarining 1926-yilda chop etilgan original versiyasi\nSyujet Chester Gillettening 1906-yilda oʻz sevgilisi Greys Braunni oʻldirishi[1] va shunga oʻxshash hodisa boʻlgan Karlayl Xarris va Klarens Richesonning ishi asosida qurilgan. Roman chiqqandan soʻng, kitobxonlar orasida katta muvaffaqiyat ega boʻldi. Romanning nashriyotchisi Horace Livewright 1926-yilda asarning teatrlashtirilgan versiyasini yaratdi.",
-                      "image": "https://kitobxon.com/img_knigi/1478.jpg",
-                      "pdf": "http://ferlibrary.uz/f/amerika_fojiasi_15.pdf"
+                      "name": "Cleopatra",
+                      "author": "H. Rider Haggard",
+                      "biography": "Sir H. Rider Haggard, in full Sir Henry Rider Haggard, (born June 22, 1856, Bradenham, Norfolk, Eng.—died May 14, 1925, London), English novelist best known for his romantic adventure King Solomon’s Mines (1885). The son of a barrister, Haggard was educated at Ipswich grammar school and by private tutors. In 1875, at age 19, he went to southern Africa as secretary to the governor of Natal, Sir Henry Bulwer. Then he served on Sir Theophilus Shepstone’s staff and himself hoisted the flag at the brief first annexation of the Transvaal (1877–81).",
+                      "overview": "Being an Account of the Fall and Vengeance of Harmachis, is a historical adventure fiction novel by English writer H. Rider Haggard. First published in 1889, it tells the story of the Egyptian priest Harmachis (who is the living descendant of the pharoahs) who is tasked with overthrowing Cleopatra along with the Greeks and Romans and restoring Egypt to its golden era. The story is told from the point of view of Harmachis and is recounted in Biblical language.",
+                      "image": "https://manybooks.net/sites/default/files/styles/220x330sc/public/old-covers/cover-orig-3105.jpg?itok=wSjOd-si",
+                      "pdf": "https://firebasestorage.googleapis.com/v0/b/flutter-book-reader-fa367.appspot.com/o/Cleopatra.pdf?alt=media&token=abe44354-0998-4b55-b713-1968985ebfe8"
         }
     ]
 }

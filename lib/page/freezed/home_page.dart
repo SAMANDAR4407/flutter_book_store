@@ -46,13 +46,14 @@ class _HomePageState extends State<HomePage> {
       builder: (context, state) {
         return Scaffold(
           appBar: AppBar(
+            scrolledUnderElevation: 0,
             title: Padding(
                 padding: const EdgeInsets.all(12),
                 child: Text(
-                  'Ilovamizga Xush kelibsiz!',
+                  'Welcome!',
                   style: GoogleFonts.poppins().copyWith(
                     color: const Color(0xFF8A8A8A),
-                    fontSize: 16,
+                    fontSize: 17,
                     fontWeight: FontWeight.w500,
                   ),
                 )),
@@ -100,10 +101,13 @@ class _HomePageState extends State<HomePage> {
                       decoration: InputDecoration(
                         enabledBorder: InputBorder.none,
                         focusedBorder: InputBorder.none,
-                        hintText: 'Qidiruv',
+                        hintText: 'Search a book',
                         suffixIcon: controller.text.isNotEmpty
                             ? InkWell(
-                            onTap: () => controller.text = '',
+                            onTap: (){
+                              controller.text = '';
+                              _node.unfocus();
+                            },
                             child: const Icon(Icons.close,
                                 color: Color(0xFFAFAFAF)))
                             : null,
@@ -140,15 +144,15 @@ class _HomePageState extends State<HomePage> {
                       }
                       if(state.list.isEmpty){
                         return const Center(
-                          child: Text('Kitob topilmadi', style: TextStyle(fontSize: 20)),
+                          child: Text('Book not found', style: TextStyle(fontSize: 20)),
                         );
                       }
                       if (state.message.isNotEmpty) {
-                        return Center(
+                        return const Center(
                           child: Text(
-                            'Xatolik\n${state.message}',
+                            'Error occurred',
                             textAlign: TextAlign.center,
-                            style: const TextStyle(
+                            style: TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.bold),
                           ),
                         );

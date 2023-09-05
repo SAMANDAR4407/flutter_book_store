@@ -1,4 +1,5 @@
 import 'package:device_preview/device_preview.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:my_book_store/page/freezed/home_page.dart';
@@ -6,8 +7,13 @@ import 'package:my_book_store/page/onboard_page.dart';
 import 'package:my_book_store/page/splash_page.dart';
 
 import 'config/theme.dart';
+import 'firebase_options.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(DevicePreview(enabled: false, builder: (context) => const MyApp()));
 }
 
@@ -42,15 +48,6 @@ class _MyAppState extends State<MyApp> {
       home: const Splash(),
       getPages: [
         GetPage(name: '/home', page: () => const HomePage(),),
-        /*GetPage(name: '/home', page: () {
-            return ChangeNotifierProvider(
-              create: (context) => BookProvider(BookApi()),
-              builder: (context, child) {
-                return const HomePage();
-              },
-            );
-          }
-        ),*/
         GetPage(
           name: '/onboard',
           page: () => const OnBoard(),

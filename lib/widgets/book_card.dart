@@ -1,3 +1,4 @@
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 
 class BookCard extends StatelessWidget {
@@ -20,10 +21,11 @@ class BookCard extends StatelessWidget {
                   clipBehavior: Clip.antiAlias,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(20)),
-                  child: Image.network(
-                    image,
-                    fit: BoxFit.cover,
-                  )
+                child: CachedNetworkImage(
+                  imageUrl: image,
+                  fit: BoxFit.fitHeight,
+                  placeholder: (context, url) => Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOSEhd-ARRtRWr0GMmWEp9aRG3yYkgukpQkg&usqp=CAU', fit: BoxFit.cover),
+                )
               )
           ),
           const SizedBox(height: 10),

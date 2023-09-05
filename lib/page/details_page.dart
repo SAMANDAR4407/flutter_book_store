@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -80,6 +81,7 @@ class _DetailsPageState extends State<DetailsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          scrolledUnderElevation: 0,
           backgroundColor: Colors.transparent,
         ),
         body: Stack(children: [
@@ -97,7 +99,7 @@ class _DetailsPageState extends State<DetailsPage> {
                         if (status == Status.fail) {
                           return const Center(
                             child: Text(
-                              'Xatolik yuz berdi',
+                              'Error occurred',
                               style: TextStyle(fontSize: 20),
                             ),
                           );
@@ -110,10 +112,13 @@ class _DetailsPageState extends State<DetailsPage> {
                                       height:
                                           MediaQuery.of(context).size.height *
                                               0.4,
-                                      child: Image.network(
-                                        details.image,
-                                        fit: BoxFit.fitHeight,
-                                      ))),
+                                    child: CachedNetworkImage(
+                                      imageUrl: details.image,
+                                      fit: BoxFit.fitHeight,
+                                      placeholder: (context, url) => Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOSEhd-ARRtRWr0GMmWEp9aRG3yYkgukpQkg&usqp=CAU', fit: BoxFit.cover),
+                                    )
+                                  )
+                              ),
                               SizedBox(
                                 height:
                                     MediaQuery.of(context).size.height * 0.02,
@@ -142,7 +147,7 @@ class _DetailsPageState extends State<DetailsPage> {
                                     MediaQuery.of(context).size.height * 0.02,
                               ),
                               Text(
-                                'Muallif haqida',
+                                'About the author',
                                 style: GoogleFonts.poppins().copyWith(
                                     fontWeight: FontWeight.bold, fontSize: 18),
                               ),
@@ -158,7 +163,7 @@ class _DetailsPageState extends State<DetailsPage> {
                               ),
                               const SizedBox(height: 10),
                               Text(
-                                'Kitob haqida',
+                                'About the book',
                                 style: GoogleFonts.poppins().copyWith(
                                     fontWeight: FontWeight.bold, fontSize: 18),
                               ),
@@ -198,7 +203,7 @@ class _DetailsPageState extends State<DetailsPage> {
                       : Builder(builder: (context) {
                           if (hasPdf) {
                             return Text(
-                              "Ochish",
+                              "Read",
                               style: GoogleFonts.quicksand().copyWith(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
@@ -208,7 +213,7 @@ class _DetailsPageState extends State<DetailsPage> {
                           }
                           if (progress != 0) {
                             return Text(
-                              "Yuklanmoqda [$progress%]",
+                              "Downloading [$progress%]",
                               style: GoogleFonts.quicksand().copyWith(
                                 color: Colors.white,
                                 fontWeight: FontWeight.bold,
@@ -217,7 +222,7 @@ class _DetailsPageState extends State<DetailsPage> {
                             );
                           }
                           return Text(
-                            "Yuklash",
+                            "Download",
                             style: GoogleFonts.quicksand().copyWith(
                               color: Colors.white,
                               fontWeight: FontWeight.bold,

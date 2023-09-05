@@ -17,12 +17,12 @@ class _OnBoardState extends State<OnBoard> {
   final controller = PageController();
   SharedPreferences? prefs;
   final list = [
-    OnBoardData('assets/images/page1.svg', 'Read your e-books',
-        'Contrary You can buy any books online. we\nwill deliver the book within 2 days in tashkent\n3 days within Uzbekistan'),
-    OnBoardData('assets/images/page2.svg', 'Order your books',
-        'Contrary You can buy any books online. we\nwill deliver the book within 2 days in tashkent\n3 days within Uzbekistan'),
-    OnBoardData('assets/images/page3.svg', 'Now you can listen audio books',
-        'We have vide range of audio books that you\ncan enjoy listening books anytime, anywhere'),
+    OnBoardData('assets/images/page1.svg', 'Discover captivating books',
+        'Explore a diverse collection of captivating books, ready to transport you to new worlds.'),
+    OnBoardData('assets/images/page2.svg', 'Explore a vast library',
+        'Immerse yourself in a vast library of literary treasures, waiting to inspire and enlighten.'),
+    OnBoardData('assets/images/page3.svg', 'Indulge in the joy of reading',
+        'Indulge in the joy of reading with our immersive app, connecting you with unforgettable stories'),
   ];
 
   Future<void> load() async {
